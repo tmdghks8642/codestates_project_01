@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(240, 241, 242);
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    background-color:rgb(69, 44, 221);
+    padding: 25px;
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+
+
+section {
+    text-align: center;
+    background-repeat: round;
+    background-image: url(../img/IMG_1961.jpeg);
+    background-size: 150px;
+    width: 100vw;
+    height: 300px;
+    
+}
+
+section img {
+    width: 50vw;
+    
+
+}
+
+.goals-list  {
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.goals-1 {
+    background-color: rgba(69, 44, 221, 1);
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 5vw;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    
+
+}
+
+.goals-2 {
+    background-color: rgba(69, 44, 221, 1);
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 60vw;
+    width: 30%;
+    height: 227px;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+
+
+.bottom-text {
+    background-color:  rgba(69, 44, 221, 1);
+    position: relative;
+    top: 12%;
+    padding: 50px;    
+}
+
+.bottom-text i {
+    position: absolute;
+    left: 40%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+.bottom-text p {
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.bottom-text a {
+    color: white;
+    display: block;
+    text-align: right;
+    padding: 5px;
+}

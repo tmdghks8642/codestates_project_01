@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.frame {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #0365a9;
+}
+
+.frame img {
+    width: 39vw;
+    height: 23%;
+    z-index:1;
+    position: absolute;
+    left: auto;
+    top: 12%;
+    border-radius: 5px;
+}
+
+.container {
+    border: 2px solid black;
+    width: 40vw;
+    height: 60%; 
+    border-radius: 15px;
+    z-index: 2;
+    background-color: #2080bc;
+    position: absolute;
+    bottom: 70px;
+}
+
+.result {
+    padding: 20px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #f9fafa; 
+    color:#776f6f;
+    background-image: url(../img/다운로드.png);
+    background-repeat: no-repeat;
+    background-size: 8vw
+}
+
+.result span {
+    display: block;
+    text-align: right;
+    font-size: 30px;
+}
+
+.main-button {
+    margin-top: 10% ;
+    margin-left: 10px;
+    margin-right: 10px;
+    height:70%;
+    color: #776f6f; 
+
+}
+
+.row-1-button,.row-2-button,.row-3-button,.row-4-button,.row-5-button {
+    background-color: white 
+}
+
+.row-1,.row-2,.row-3,.row-4,.row-5 {
+    display: flex;
+    height: 20%; 
+}
+
+.row-1-button,.row-2-button,.row-3-button,.row-4-button {
+    flex: 1;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    line-height: 70px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin: 3px;
+    line-height: 60px;
+}
+
+.row-5-button {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 60px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin: 3px;
+}
+
+.row-5-button:nth-child(1) {
+    flex-grow: 2;
+    padding-right: 8px;
+}
+
+.row-5-button:nth-child(2) {
+    flex-grow: 1;
+    padding-right: 5px;
+}
+
+.row-5-button:nth-child(3) {
+    flex-grow: 1;
+}
+
+.container:hover {
+    box-shadow: 5px 5px 10px black;
+}
+
+.row-2-button:hover,.row-3-button:hover,.row-4-button:hover,.row-5-button:hover {
+   background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)),url(../img/images.jpeg);
+   background-size: 8vw;
+   color: tomato;
+    
+}
+
+.row-1-button:hover,.calculation:hover {
+    background-image: linear-gradient(rgb(255,244,45,0.5), rgb(255,244,45,0.5)),url(../img/images.jpeg);
+    background-size: 8vw;
+    color: tomato;
+     
+ }
+
+.row-1-button:active,.row-2-button:active,.row-3-button:active,.row-4-button:active,.row-5-button:active {
+    border: 3px solid blue;
+}
+
+.row-1-button,.calculation{
+    background-color: yellow; 
+}
