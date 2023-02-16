@@ -17,7 +17,7 @@
 
 .frame img {
     width: 39vw;
-    height: 23%;
+    height: 30%;
     z-index:1;
     position: absolute;
     left: auto;
@@ -28,7 +28,7 @@
 .container {
     border: 2px solid black;
     width: 40vw;
-    height: 60%; 
+    height: 55%; 
     border-radius: 15px;
     z-index: 2;
     background-color: #2080bc;
@@ -57,12 +57,13 @@
 }
 
 .main-button {
-    margin-top: 10% ;
-    margin-left: 10px;
-    margin-right: 10px;
-    height:70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 5%;
+    width: 90%;
+    height: 70%;
     color: #776f6f; 
-
 }
 
 .row-1-button,.row-2-button,.row-3-button,.row-4-button,.row-5-button {
