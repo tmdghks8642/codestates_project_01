@@ -9,30 +9,32 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     position: relative;
-    background-color: #0365a9;
+    background-image: url(../img/wallpaperbetter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
 }
 
 .frame img {
-    width: 39vw;
-    height: 30%;
+    width: 40vw;
+    height: 10rem;
     z-index:1;
     position: absolute;
-    left: auto;
-    top: 12%;
+    left: 30px;
+    top: 8rem;
     border-radius: 5px;
 }
 
 .container {
     border: 2px solid black;
     width: 40vw;
-    height: 55%; 
+    height: 30rem; 
     border-radius: 15px;
     z-index: 2;
     background-color: #2080bc;
     position: absolute;
+    left: 30px;
     bottom: 70px;
 }
 
@@ -47,7 +49,7 @@
     color:#776f6f;
     background-image: url(../img/다운로드.png);
     background-repeat: no-repeat;
-    background-size: 8vw
+    background-size: contain;
 }
 
 .result span {
@@ -62,7 +64,7 @@
     position: relative;
     top: 5%;
     width: 90%;
-    height: 70%;
+    height: 20rem;
     color: #776f6f; 
 }
 
@@ -107,6 +109,7 @@
 
 .row-5-button:nth-child(3) {
     flex-grow: 1;
+    margin-left: 3px;
 }
 
 .container:hover {
@@ -117,14 +120,14 @@
    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)),url(../img/images.jpeg);
    background-size: 8vw;
    color: tomato;
-    
+   cursor: grab;
 }
 
 .row-1-button:hover,.calculation:hover {
     background-image: linear-gradient(rgb(255,244,45,0.5), rgb(255,244,45,0.5)),url(../img/images.jpeg);
     background-size: 8vw;
     color: tomato;
-     
+    cursor: grab;   
  }
 
 .row-1-button:active,.row-2-button:active,.row-3-button:active,.row-4-button:active,.row-5-button:active {
